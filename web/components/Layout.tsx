@@ -23,6 +23,7 @@ export default function Layout({
         {children}
 
         <footer>
+            <hr />
             <p>
                 {`© ${year} ${name} | Created by `}
                 <a href="https://github.com/thhuang" target="_blank">thhuang</a>

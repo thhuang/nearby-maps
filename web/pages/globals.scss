@@ -8,3 +8,17 @@ html {
     @include textTheme();
     font-size: 16px;
 }
+
+nav {
+    padding: 0 1rem 0 1rem;
+}
+
+footer {
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+    
+    hr {
+        border-color: rgba(255, 255, 255, 0.30);
+    }
+    
+}

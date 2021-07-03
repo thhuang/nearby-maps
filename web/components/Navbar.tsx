@@ -4,14 +4,7 @@ import logo from '../public/logo.svg';
 export default function Navbar() {
     return (<>
         <nav>
-            <a>
-                <Image
-                    src={logo}
-                    alt="Picture of the author"
-                    width={30}
-                    height={30}
-                />
-            </a>
+            <a><Image src={logo} alt="" width={36} height={36} /></a>
         </nav>
     </>);
 };
