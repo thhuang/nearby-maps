@@ -5,16 +5,20 @@
     flex-direction: $direction;
 }
 
+
+
 .heroSection {
     @include flexCenter(row);
-    
+
+
+
     .heroText {
         padding-right: 1rem;
         width: 45%;
         max-width: 75ch;
 
         h1 {
-            font-size: 2.75rem;
+            font-size: 2.4rem;
         }
 
         p {
@@ -26,5 +30,31 @@
         padding-left: 1rem;
         width: 50%;
         max-width: 640px;
+    }
+}
+
+@media (max-width: 960px) {
+    .heroSection {
+        @include flexCenter(column);
+        .heroText {
+            width: 65%;
+            padding: 0;
+        }
+        .heroImageBlock {
+            width: 65%;
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .heroSection {
+        .heroText {
+            width: 90%;
+        }
+        .heroImageBlock {
+            width: 90%;
+            padding: 0;
+        }
     }
 }

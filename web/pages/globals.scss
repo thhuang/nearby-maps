@@ -5,8 +5,18 @@
 }
 
 html {
-    @include textTheme();
     font-size: 16px;
+    min-width: 320px;
+}
+
+@media (max-width: 540px) {
+    html {
+        font-size:87.5%;
+    }
+}
+
+html {
+    @include textTheme();
 }
 
 nav {
@@ -22,3 +32,5 @@ footer {
     }
     
 }
+
+
