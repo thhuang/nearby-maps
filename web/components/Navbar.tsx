@@ -6,5 +6,6 @@ export default function Navbar() {
         <nav>
             <a><Image src={logo} alt="" width={36} height={36} /></a>
         </nav>
+        <hr />
     </>);
 };
